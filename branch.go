@@ -38,7 +38,5 @@ func main() {
 	fmt.Println(grade(0),
 	grade(59),
 	grade(83),
-
 	)
-
 }
