@@ -7,10 +7,15 @@ import (
 
 func main() {
 	const filename = "abc.txt"
-	contents, err := ioutil.ReadFile(filename)
-	if err != nil {
+	//contents, err := ioutil.ReadFile(filename)
+	//if err != nil {
+	//	fmt.Println(err)
+	//}else{
+	//	fmt.Printf("%s \n",contents)
+	//}
+	if contents, err := ioutil.ReadFile(filename); err != nil{
 		fmt.Println(err)
-	}else{
-		fmt.Println(contents)
+	}else {
+		fmt.Printf("%s \n",contents)
 	}
 }
