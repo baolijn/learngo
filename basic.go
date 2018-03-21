@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 var (
 	aa = 3
@@ -29,6 +32,38 @@ func VariableShorter()  {
 	fmt.Println(a, b, c, d)
 }
 
+func triangle()  {
+	var a, b int = 3, 4
+	var c int
+	c = int(math.Sqrt(float64(a*a + b*b)))
+	fmt.Println(c)
+}
+
+func consts()  {
+	const filename  = "abc.txt"
+	const a, b  = 3, 4
+	//const a, b  int = 3, 4
+	var c int
+	c = int(math.Sqrt(a*a + b*b))
+	fmt.Println(filename, c)
+}
+
+func enums()  {
+	const(
+		cpp = iota
+		java
+		golang
+		javascript
+	)
+	const(
+		b = 1 << (10 * iota)
+		kb
+		tb
+	)
+	fmt.Println(cpp, java, golang, javascript)
+	fmt.Println(b, kb, tb)
+}
+
 func main() {
 	fmt.Println("Hello go")
 	VariableZeroValue()
@@ -36,4 +71,7 @@ func main() {
 	VariableTypeDeduction()
 	VariableShorter()
 	fmt.Println(aa, bb, cc)
+	triangle()
+	consts()
+	enums()
 }
