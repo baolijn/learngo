@@ -41,6 +41,14 @@ func sum(numbers ... int) int  {
 	return s
 }
 
+func swap(a, b *int){
+	*b, *a = *a, *b
+}
+
+func swap1(a, b int)(int ,int)  {
+	return b, a
+}
+
 func main() {
 	if result, error :=eval(13, 2, "!"); error!= nil{
 		fmt.Println("Error:", error)
@@ -61,4 +69,8 @@ func main() {
 	}, 2, 3))
 
 	fmt.Println(sum(1,2,3,4,5))
+	a, b := 3, 4
+	//swap(&a, &b)
+	a, b = swap1(a, b)
+	fmt.Println(a, b)
 }
