@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/sliceops.go" afterPath="$PROJECT_DIR$/sliceops.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/maps.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="arrays.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arrays.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -49,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sliceops.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sliceops.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sliceops.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maps.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -98,8 +111,8 @@
       <file leaf-file-name="loop.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loop.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#14#57#0" expanded="true" />
               </folding>
@@ -141,6 +154,7 @@
         <option value="$PROJECT_DIR$/arrays.go" />
         <option value="$PROJECT_DIR$/slices.go" />
         <option value="$PROJECT_DIR$/sliceops.go" />
+        <option value="$PROJECT_DIR$/maps.go" />
       </list>
     </option>
   </component>
@@ -206,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build sliceops.go">
+  <component name="RunManager" selected="Go Build.go build maps.go">
     <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -223,12 +237,12 @@
       <filePath value="$PROJECT_DIR$/basic.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/func.go" />
+      <filePath value="$PROJECT_DIR$/maps.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build sliceops.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -249,18 +263,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build basic.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build func.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build arrays.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build slices.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build sliceops.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build arrays.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build slices.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build sliceops.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build maps.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build sliceops.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build slices.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build arrays.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build basic.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build func.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build maps.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build sliceops.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build slices.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build arrays.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build basic.go" />
       </list>
     </recent_temporary>
   </component>
@@ -319,16 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loop.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
@@ -357,10 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrays.go">
+    <entry file="file://$PROJECT_DIR$/sliceops.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
@@ -377,10 +381,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sliceops.go">
+    <entry file="file://$PROJECT_DIR$/loop.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrays.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
