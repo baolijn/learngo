@@ -26,7 +26,7 @@ func main() {
 	fmt.Println(s2)
 	s2 = s2[2:]
 	fmt.Println(s2)
-
+	fmt.Println(arr)
 	fmt.Println("Extending Slice")
 	arr[0] = 0
 	arr[2] = 2
