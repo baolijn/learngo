@@ -3,10 +3,12 @@ package real
 import (
 	"net/http"
 	"net/http/httputil"
+	"time"
 )
 
 type Retriever struct {
-	Contents string
+	UserAgent string
+	TimeOut time.Duration
 }
 
 func (r Retriever) Get(url string) string {

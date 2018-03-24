@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type queue []int
+type queue []interface{}
 
 func (q *queue)push(value int) {
 	 *q = append(*q, value)
@@ -11,7 +11,7 @@ func (q *queue)push(value int) {
 func (q *queue)pop() int {
 	head := (*q)[0]
 	*q = (*q)[1:]
-	return head
+	return head.(int)
 }
 
 func (q *queue) isEmpty() bool  {
