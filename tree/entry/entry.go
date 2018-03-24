@@ -2,6 +2,21 @@ package main
 
 import "learngo/tree"
 
+type myTreeNode struct {
+	node *tree.Node
+}
+
+func (myNode *myTreeNode)printPostOrder() {
+	if myNode == nil || myNode.node == nil{
+		return
+	}
+	left := myTreeNode{myNode.node.Left }
+	left.printPostOrder()
+	right := myTreeNode{myNode.node.Right}
+	right.printPostOrder()
+	myNode.node.Print()
+}
+
 func main() {
 	var root tree.Node
 	root = tree.Node{Value : 3}
@@ -10,6 +25,9 @@ func main() {
 	root.Right = &tree.Node{5, nil, nil}
 	root.Right.Left = new(tree.Node)
 	root.Right.Left.SetValue(4)
+	//root.Traverse()
+    myRoot := myTreeNode{&root}
+	myRoot.printPostOrder()
 
 	//nodes := []treeNode{
 	//	{value:3},
@@ -30,5 +48,5 @@ func main() {
 	//pRoot = &root
 	//pRoot.SetValue(300)
 	//pRoot.Print()
-	root.Traverse()
+
 }
