@@ -11,13 +11,38 @@ type Retriever interface {
 	Get(url string) string
 }
 
-func download(R Retriever) string  {
-	return R.Get("https://www.baidu.com")
+type Poster interface {
+	Post(url string,
+		forms map[string]string) string
 }
 
+type RetriverPoster interface {
+	Retriever
+	Poster
+}
+
+const url  = "https://www.baidu.com"
+
+func download(R Retriever) string  {
+	return R.Get(url)
+}
+
+func post(p Poster)  {
+	p.Post(url, map[string]string{
+		"name": "libao",
+		"course": "golang",
+	})
+}
+
+func session(r RetriverPoster) string  {
+	r.Post(url, map[string]string{
+		"contents":"another fake",
+	})
+	return r.Get(url)
+}
 func inspect(r Retriever)  {
 	switch v := r.(type) {
-	case mock.Retriever:
+	case *mock.Retriever:
 		fmt.Println(v.Contents)
 	case real.Retriever:
 		fmt.Println(v.UserAgent, v.TimeOut)
@@ -25,7 +50,7 @@ func inspect(r Retriever)  {
 }
 func main() {
 	var r Retriever
-	r = mock.Retriever{"eden is the best"}
+	retriever := mock.Retriever{"this is a fake"}
 	//fmt.Println(download(r))
 	//fmt.Printf("%T %v\n", r,r)
 	inspect(r)
@@ -33,12 +58,13 @@ func main() {
 	fmt.Printf("%T %v\n", r,r)
 
 	//type assertion
-	mockRetriever, ok := r.(mock.Retriever)
-	if ok{
-		fmt.Println(mockRetriever)
-	}else{
-		panic("err")
-	}
-
+	//mockRetriever, ok := r.(mock.Retriever)
+	//if ok{
+	//	fmt.Println(mockRetriever)
+	//}else{
+	//	panic("err")
+	//}
+	fmt.Println("Try a session")
+	fmt.Println(session(&retriever))
 	//fmt.Println(download(realRetriever))
 }

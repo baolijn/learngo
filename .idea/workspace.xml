@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/queue/queue.go" afterPath="$PROJECT_DIR$/queue/queue.go" />
-      <change beforePath="$PROJECT_DIR$/retriever/real/retriever.go" afterPath="$PROJECT_DIR$/retriever/real/retriever.go" />
+      <change beforePath="$PROJECT_DIR$/retriever/mock/retriever.go" afterPath="$PROJECT_DIR$/retriever/mock/retriever.go" />
       <change beforePath="$PROJECT_DIR$/retriever/retriever.go" afterPath="$PROJECT_DIR$/retriever/retriever.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="queue.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="queue.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/queue/queue.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -71,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="retriever.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="retriever.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/retriever/retriever.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="846">
+              <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
               <folding>
                 <element signature="e#14#91#0" expanded="true" />
               </folding>
@@ -86,8 +85,8 @@
       <file leaf-file-name="retriever.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retriever/mock/retriever.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -164,10 +163,10 @@
         <option value="$PROJECT_DIR$/tree/node.go" />
         <option value="$PROJECT_DIR$/tree/traverse.go" />
         <option value="$PROJECT_DIR$/tree/entry/entry.go" />
-        <option value="$PROJECT_DIR$/retriever/mock/retriever.go" />
         <option value="$PROJECT_DIR$/retriever/real/retriever.go" />
-        <option value="$PROJECT_DIR$/retriever/retriever.go" />
         <option value="$PROJECT_DIR$/queue/queue.go" />
+        <option value="$PROJECT_DIR$/retriever/mock/retriever.go" />
+        <option value="$PROJECT_DIR$/retriever/retriever.go" />
       </list>
     </option>
   </component>
@@ -233,7 +232,19 @@
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="retriever" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="retriever" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="retriever" type="462c0819:PsiDirectoryNode" />
+              <item name="real" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
@@ -819,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retriever/mock/retriever.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/net/http/request.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="661">
@@ -843,6 +846,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/retriever/real/retriever.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -853,22 +866,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retriever/retriever.go">
+    <entry file="file://$PROJECT_DIR$/retriever/mock/retriever.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#91#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queue/queue.go">
+    <entry file="file://$PROJECT_DIR$/retriever/retriever.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="846">
+          <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#14#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
