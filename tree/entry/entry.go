@@ -1,6 +1,9 @@
 package main
 
-import "learngo/tree"
+import (
+	"learngo/tree"
+	"fmt"
+)
 
 type myTreeNode struct {
 	node *tree.Node
@@ -25,9 +28,16 @@ func main() {
 	root.Right = &tree.Node{5, nil, nil}
 	root.Right.Left = new(tree.Node)
 	root.Right.Left.SetValue(4)
-	//root.Traverse()
-    myRoot := myTreeNode{&root}
-	myRoot.printPostOrder()
+	root.Traverse()
+
+	nodeCount := 0
+	root.TraverseFunc(func(node *tree.Node) {
+		nodeCount++
+	})
+
+	fmt.Println("Node count:", nodeCount)
+    //myRoot := myTreeNode{&root}
+	//myRoot.printPostOrder()
 
 	//nodes := []treeNode{
 	//	{value:3},
