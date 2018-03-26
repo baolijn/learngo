@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/loop.go" afterPath="$PROJECT_DIR$/loop.go" />
-    </list>
+    <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,18 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="retriever.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retriever/retriever.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding>
-                <element signature="e#14#91#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="read.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/github.com/gpmgo/gopm/modules/goconfig/read.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,13 +41,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loop.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loop.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loop.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="634">
               <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding>
                 <element signature="e#14#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adder.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +120,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -166,6 +164,7 @@
         <option value="$PROJECT_DIR$/retriever/mock/retriever.go" />
         <option value="$PROJECT_DIR$/retriever/retriever.go" />
         <option value="$PROJECT_DIR$/loop.go" />
+        <option value="$PROJECT_DIR$/functional/adder/adder.go" />
       </list>
     </option>
   </component>
@@ -231,60 +230,7 @@
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="retriever" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="retriever" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="retriever" type="462c0819:PsiDirectoryNode" />
-              <item name="real" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.10" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.10" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.10" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.10" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="testlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GOPATH &lt;learngo&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GOPATH &lt;learngo&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="functional" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +242,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -322,7 +268,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build loop.go">
+  <component name="RunManager" selected="Go Build.go build adder.go">
+    <configuration name="go build adder.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/functional/adder/adder.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build entry.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -337,14 +291,6 @@
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/loop.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="go build node.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tree/node.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build queue.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -364,19 +310,19 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build node.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build entry.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build queue.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build retriever.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build loop.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build entry.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build queue.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build retriever.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build loop.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build adder.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build loop.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build retriever.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build entry.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build queue.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build node.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build adder.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build loop.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build retriever.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build entry.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build queue.go" />
       </list>
     </recent_temporary>
   </component>
@@ -417,16 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loop.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/entry/entry.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -817,7 +753,7 @@
         <state relative-caret-position="450">
           <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
-            <element signature="e#14#91#0" expanded="true" />
+            <element signature="e#14#91#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -892,6 +828,16 @@
           <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
           <folding>
             <element signature="e#14#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
