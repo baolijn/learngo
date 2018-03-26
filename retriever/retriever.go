@@ -41,6 +41,8 @@ func session(r RetriverPoster) string  {
 	return r.Get(url)
 }
 func inspect(r Retriever)  {
+	fmt.Println("Inspecting")
+	fmt.Printf("%T %v\n", r,r)
 	switch v := r.(type) {
 	case *mock.Retriever:
 		fmt.Println(v.Contents)
@@ -53,6 +55,7 @@ func main() {
 	retriever := mock.Retriever{"this is a fake"}
 	//fmt.Println(download(r))
 	//fmt.Printf("%T %v\n", r,r)
+	r = &retriever
 	inspect(r)
 	r = real.Retriever{"libao", time.Minute}
 	fmt.Printf("%T %v\n", r,r)
