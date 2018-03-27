@@ -17,9 +17,16 @@ func tryDefer()  {
 }
 
 func writeFile(filename string)  {
-	file, err := os.Create(filename)
+	file, err := os.OpenFile(filename, os.O_EXCL|os.O_CREATE, 0666)
 	if err != nil{
-		panic("File does not exist")
+		if pathError, ok := err.(*os.PathError); !ok{
+			panic("File does not exist")
+		}else {
+			fmt.Println(pathError.Op,
+				pathError.Path,
+					pathError.Err)
+		}
+
 	}
 	defer file.Close()
 
@@ -33,6 +40,6 @@ func writeFile(filename string)  {
 }
 
 func main() {
-	tryDefer()
-	//writeFile("fib.txt")
+	//tryDefer()
+	writeFile("fib.txt")
 }
