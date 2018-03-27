@@ -2,25 +2,35 @@ package main
 
 import (
 	"net/http"
+	"learngo/errhandling/filelistingserver/filelisting"
 	"os"
-	"io/ioutil"
+	"log"
 )
 
-func main() {
-	http.HandleFunc("/list/", func(writer http.ResponseWriter, request *http.Request) {
-		path := request.URL.Path[len("/list/"):]
-		file, err := os.Open(path)
-		if err != nil {
-			panic(err)
-		}
-		defer file.Close()
+type appHandler func(writer http.ResponseWriter, request *http.Request) error
 
-		all, err := ioutil.ReadAll(file)
+func errorWrapper(handler appHandler) func(writer http.ResponseWriter, request *http.Request){
+	return func(writer http.ResponseWriter, request *http.Request) {
+		err := handler(writer, request)
 		if err != nil {
-			panic(err)
+			log.Printf("Error occured " +
+				"handling request: %s",
+					err.Error())
+			code := http.StatusOK
+			switch  {
+			case os.IsNotExist(err):
+				code = http.StatusNotFound
+			case os.IsPermission(err):
+				code = http.StatusForbidden
+			default:
+				code = http.StatusInternalServerError
+			}
+			http.Error(writer, http.StatusText(code), code)
 		}
-		writer.Write(all)
-	})
+	}
+}
+func main() {
+	http.HandleFunc("/list/", errorWrapper(filelisting.HandlerFileList))
 
 	err := http.ListenAndServe(":8888", nil)
 	if err != nil {

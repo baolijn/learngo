@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="" />
+    <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/errhandling/filelistingserver/web.go" afterPath="$PROJECT_DIR$/errhandling/filelistingserver/web.go" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,18 +47,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traverse.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/traverse.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="entry.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree/entry/entry.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,10 +72,22 @@
       <file leaf-file-name="web.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/web.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="342">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
-                <element signature="e#14#55#0" expanded="true" />
+                <element signature="e#14#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handler.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/filelisting/handler.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#21#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,6 +177,7 @@
         <option value="$PROJECT_DIR$/functional/fib/fib.go" />
         <option value="$PROJECT_DIR$/functional/main.go" />
         <option value="$PROJECT_DIR$/errhandling/defer/defer.go" />
+        <option value="$PROJECT_DIR$/errhandling/filelistingserver/filelisting/handler.go" />
         <option value="$PROJECT_DIR$/errhandling/filelistingserver/web.go" />
       </list>
     </option>
@@ -242,6 +245,19 @@
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
               <item name="errhandling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="errhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="filelistingserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="errhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="filelistingserver" type="462c0819:PsiDirectoryNode" />
+              <item name="filelisting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
@@ -381,16 +397,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/branch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="e#14#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loop.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -838,12 +844,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/filelisting/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#21#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/web.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="342">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
-            <element signature="e#14#55#0" expanded="true" />
+            <element signature="e#14#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
