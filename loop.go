@@ -40,7 +40,14 @@ func forever()  {
 		fmt.Println("sss")
 	}
 }
+func looptest()  {
+	for loop := 0; ;{
+		fmt.Println(loop)
+	}
+
+}
 func main() {
+	looptest()
 	fmt.Println(convertToBin(13),
 		convertToBin(0))
 

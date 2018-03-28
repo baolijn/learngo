@@ -12,7 +12,7 @@ type intGen func() int
 
 func (g intGen) Read(p []byte) (n int, err error) {
 	next := g()
-	if next > 10000{
+	if next > 10000 {
 		return 0, io.EOF
 	}
 	s := fmt.Sprintf("%d\n", next)
