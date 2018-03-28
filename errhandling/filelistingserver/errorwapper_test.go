@@ -6,6 +6,8 @@ import (
 	"net/http/httptest"
 	"io/ioutil"
 	"strings"
+	"os"
+	"errors"
 )
 
 type testingUserError string
@@ -25,6 +27,20 @@ func errUserError(writer http.ResponseWriter, request *http.Request) error{
 	return testingUserError("user error")
 }
 
+func errNotFound(writer http.ResponseWriter, request *http.Request) error{
+	return os.ErrNotExist
+}
+
+func errNoPermission(_ http.ResponseWriter,
+	_ *http.Request) error {
+	return os.ErrPermission
+}
+
+func errUnknown(_ http.ResponseWriter,
+	_ *http.Request) error {
+	return errors.New("unknown error")
+}
+
 func TestErrWrapper(t *testing.T)  {
 	tests := []struct{
 		h appHandler
@@ -33,6 +49,9 @@ func TestErrWrapper(t *testing.T)  {
 	}{
 		{errorPanic, 500, "Internal Server Error"},
 		{errUserError, 400, "user error"},
+		{errNotFound, 404, "Not Found"},
+		{errNoPermission, 403, "Forbidden"},
+		{errUnknown, 500, "Internal Server Error"},
 	}
 
 	for _, tt := range tests{
