@@ -8,6 +8,7 @@ import (
 	"strings"
 	"os"
 	"errors"
+	"fmt"
 )
 
 type testingUserError string
@@ -41,6 +42,12 @@ func errUnknown(_ http.ResponseWriter,
 	return errors.New("unknown error")
 }
 
+func noError(writer http.ResponseWriter,
+	_ *http.Request) error {
+		fmt.Fprintln(writer, "no error")
+	return nil
+}
+
 func TestErrWrapper(t *testing.T)  {
 	tests := []struct{
 		h appHandler
@@ -52,6 +59,7 @@ func TestErrWrapper(t *testing.T)  {
 		{errNotFound, 404, "Not Found"},
 		{errNoPermission, 403, "Forbidden"},
 		{errUnknown, 500, "Internal Server Error"},
+		{noError, 200, "no error"},
 	}
 
 	for _, tt := range tests{
