@@ -1,4 +1,4 @@
-package main
+package basic
 
 import (
 	"fmt"
@@ -34,9 +34,12 @@ func VariableShorter()  {
 
 func triangle()  {
 	var a, b int = 3, 4
-	var c int
-	c = int(math.Sqrt(float64(a*a + b*b)))
-	fmt.Println(c)
+
+	fmt.Println(calTriangle(a, b))
+}
+
+func calTriangle(a, b int) int  {
+	return int(math.Sqrt(float64(a*a + b*b)))
 }
 
 func consts()  {
