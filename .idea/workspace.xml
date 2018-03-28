@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/arrays.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/findshorteststring.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/maps.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sliceops.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/slices.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go" afterPath="$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,13 +28,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="triangle_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="triangle_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/triangle_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#15#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findshorteststring_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#28#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,6 +84,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="findshorteststring.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="handler.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/filelisting/handler.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,28 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
               <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adder.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loop.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loop.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -188,6 +184,8 @@
         <option value="$PROJECT_DIR$/loop.go" />
         <option value="$PROJECT_DIR$/basic/basic.go" />
         <option value="$PROJECT_DIR$/basic/triangle_test.go" />
+        <option value="$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring_test.go" />
+        <option value="$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go" />
       </list>
     </option>
   </component>
@@ -253,6 +251,11 @@
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
               <item name="container" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -272,7 +275,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="go" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -299,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestTriangle in triangle_test.go">
+  <component name="RunManager" selected="Go Test.TestSubStr in findshorteststring_test.go">
     <configuration name="go build loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -316,14 +319,6 @@
       <filePath value="$PROJECT_DIR$/functional/main.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build rangereturn.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/rangereturn.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
     <configuration name="go build web.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -331,6 +326,15 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/errhandling/filelistingserver/web.go" />
       <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="TestSubStr in findshorteststring_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/container/nonrepeatingsubstr" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learngo/container/nonrepeatingsubstr" />
+      <pattern value="^TestSubStr$" />
     </configuration>
     <configuration name="TestTriangle in triangle_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learngo" />
@@ -343,18 +347,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build web.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build rangereturn.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build loop.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestTriangle in triangle_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build loop.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestTriangle in triangle_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestSubStr in findshorteststring_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestTriangle in triangle_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build web.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build loop.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build rangereturn.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestSubStr in findshorteststring_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestTriangle in triangle_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build web.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build loop.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -362,29 +366,46 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 10h 39m 17s.xml">
+    <history-entry file="TestSubStr_in_findshorteststring_test_go - 2018.03.28 at 11h 13m 47s.xml">
+      <configuration name="TestSubStr in findshorteststring_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubStr_in_findshorteststring_test_go - 2018.03.28 at 11h 16m 16s.xml">
+      <configuration name="TestSubStr in findshorteststring_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubStr_in_findshorteststring_test_go - 2018.03.28 at 11h 19m 45s.xml">
+      <configuration name="TestSubStr in findshorteststring_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 11h 11m 46s.xml">
       <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 10h 39m 29s.xml">
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 11h 12m 22s.xml">
       <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 10h 41m 25s.xml">
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 11h 12m 38s.xml">
       <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 10h 42m 28s.xml">
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 11h 12m 47s.xml">
+      <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 11h 13m 15s.xml">
+      <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 11h 13m 23s.xml">
+      <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 11h 13m 36s.xml">
       <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41531822" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41531822" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41531822" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -463,16 +484,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#28#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -640,14 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="200" column="5" lean-forward="false" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -899,9 +902,27 @@
     <entry file="file://$PROJECT_DIR$/basic/triangle_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#15#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#28#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

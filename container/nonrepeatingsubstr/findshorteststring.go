@@ -3,11 +3,11 @@ package nonrepeatingsubstr
 import "fmt"
 
 func lengthOfNoRepeatingSubstring(longString string)int {
-	lastOccurred := make(map[byte]int)
+	lastOccurred := make(map[rune]int)
 	start := 0
 	maxLength := 0
 
-	for i, ch := range []byte(longString){
+	for i, ch := range []rune(longString){
 		if lastI, ok := lastOccurred[ch]; ok && lastI >= start {
 			start = lastI + 1
 		}
