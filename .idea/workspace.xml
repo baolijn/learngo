@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go" afterPath="$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go" />
+      <change beforePath="$PROJECT_DIR$/queue/queue.go" afterPath="$PROJECT_DIR$/queue/queue.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,25 +22,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="triangle_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/triangle_test.go">
+      <file leaf-file-name="errorwapper_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding>
-                <element signature="e#15#31#0" expanded="true" />
+                <element signature="e#14#115#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="errorwapper_test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go">
+      <file leaf-file-name="queue.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/queue/queue.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="27" />
+            <state relative-caret-position="198">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/queue/queue_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
-                <element signature="e#14#115#0" expanded="true" />
+                <element signature="e#15#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,16 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/net/http/server.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="2378" column="5" lean-forward="false" selection-start-line="2378" selection-start-column="5" selection-end-line="2378" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="handler.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/filelisting/handler.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -169,7 +169,6 @@
         <option value="$PROJECT_DIR$/tree/entry.go" />
         <option value="$PROJECT_DIR$/tree/node.go" />
         <option value="$PROJECT_DIR$/retriever/real/retriever.go" />
-        <option value="$PROJECT_DIR$/queue/queue.go" />
         <option value="$PROJECT_DIR$/retriever/mock/retriever.go" />
         <option value="$PROJECT_DIR$/retriever/retriever.go" />
         <option value="$PROJECT_DIR$/functional/adder/adder.go" />
@@ -189,6 +188,8 @@
         <option value="$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go" />
         <option value="$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring_test.go" />
         <option value="$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go" />
+        <option value="$PROJECT_DIR$/queue/queue_test.go" />
+        <option value="$PROJECT_DIR$/queue/queue.go" />
       </list>
     </option>
   </component>
@@ -254,25 +255,12 @@
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="errhandling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="errhandling" type="462c0819:PsiDirectoryNode" />
-              <item name="filelistingserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="errhandling" type="462c0819:PsiDirectoryNode" />
-              <item name="filelistingserver" type="462c0819:PsiDirectoryNode" />
-              <item name="filelisting" type="462c0819:PsiDirectoryNode" />
+              <item name="retriever" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.go test learngo/errhandling/filelistingserver">
+  <component name="RunManager" selected="Go Test.ExampleQueue_Pop in queue_test.go">
     <configuration name="BenchmarkSubStr in findshorteststring_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/container/nonrepeatingsubstr" />
@@ -321,6 +309,15 @@
       <kind value="PACKAGE" />
       <package value="learngo/container/nonrepeatingsubstr" />
       <pattern value="^BenchmarkSubStr$" />
+    </configuration>
+    <configuration name="ExampleQueue_Pop in queue_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/queue" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learngo/queue" />
+      <pattern value="^ExampleQueue_Pop$" />
     </configuration>
     <configuration name="TestErrWrapper in errorwapper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learngo" />
@@ -340,15 +337,6 @@
       <package value="learngo/errhandling/filelistingserver" />
       <pattern value="^TestErrWrapperInServer$" />
     </configuration>
-    <configuration name="TestSubStr in findshorteststring_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/container/nonrepeatingsubstr" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="learngo/container/nonrepeatingsubstr" />
-      <pattern value="^TestSubStr$" />
-    </configuration>
     <configuration name="go test learngo/errhandling/filelistingserver" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/errhandling/filelistingserver" />
@@ -358,19 +346,19 @@
       <package value="learngo/errhandling/filelistingserver" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestSubStr in findshorteststring_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.BenchmarkSubStr in findshorteststring_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestErrWrapper in errorwapper_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestErrWrapperInServer in errorwapper_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.go test learngo/errhandling/filelistingserver" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.BenchmarkSubStr in findshorteststring_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestErrWrapper in errorwapper_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestErrWrapperInServer in errorwapper_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.go test learngo/errhandling/filelistingserver" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.ExampleQueue_Pop in queue_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.go test learngo/errhandling/filelistingserver" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestErrWrapperInServer in errorwapper_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestErrWrapper in errorwapper_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.BenchmarkSubStr in findshorteststring_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestSubStr in findshorteststring_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.ExampleQueue_Pop in queue_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.go test learngo/errhandling/filelistingserver" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestErrWrapperInServer in errorwapper_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestErrWrapper in errorwapper_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.BenchmarkSubStr in findshorteststring_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -378,20 +366,20 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
+    <history-entry file="ExampleQueue_Pop_in_queue_test_go - 2018.03.28 at 17h 17m 03s.xml">
+      <configuration name="ExampleQueue_Pop in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExampleQueue_Pop_in_queue_test_go - 2018.03.28 at 17h 17m 31s.xml">
+      <configuration name="ExampleQueue_Pop in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExampleQueue_Pop_in_queue_test_go - 2018.03.28 at 17h 25m 34s.xml">
+      <configuration name="ExampleQueue_Pop in queue_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
     <history-entry file="TestErrWrapperInServer_in_errorwapper_test_go - 2018.03.28 at 16h 46m 02s.xml">
       <configuration name="TestErrWrapperInServer in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestErrWrapperInServer_in_errorwapper_test_go - 2018.03.28 at 16h 57m 08s.xml">
       <configuration name="TestErrWrapperInServer in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 16h 14m 55s.xml">
-      <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 16h 15m 51s.xml">
-      <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 16h 16m 07s.xml">
-      <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 16h 16m 55s.xml">
       <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
@@ -411,7 +399,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,7 +409,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="367" width="1920" height="305" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -498,16 +485,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/branch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="e#14#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/func.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -758,14 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queue/queue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functional/fib/fib.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -779,7 +748,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#14#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,7 +808,7 @@
         <state relative-caret-position="411">
           <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding>
-            <element signature="e#28#49#0" expanded="true" />
+            <element signature="e#28#49#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -857,7 +826,7 @@
         <state relative-caret-position="162">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
+            <element signature="e#15#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -928,10 +897,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="27" />
+        <state relative-caret-position="198">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="e#14#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#15#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
