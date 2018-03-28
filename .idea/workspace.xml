@@ -34,26 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findshorteststring_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring_test.go">
+      <file leaf-file-name="errorwapper_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="688">
+              <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="27" />
               <folding>
-                <element signature="e#28#49#0" expanded="true" />
+                <element signature="e#14#115#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="errorwapper_test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go">
+      <file leaf-file-name="recorder.go" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/net/http/httptest/recorder.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="12" />
-              <folding>
-                <element signature="e#14#115#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="298">
+              <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -314,15 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestErrWrapper in errorwapper_test.go">
-    <configuration name="go build web.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/errhandling/filelistingserver/web.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test learngo/errhandling/filelistingserver">
     <configuration name="BenchmarkSubStr in findshorteststring_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/container/nonrepeatingsubstr" />
@@ -341,6 +331,15 @@
       <package value="learngo/errhandling/filelistingserver" />
       <pattern value="^TestErrWrapper$" />
     </configuration>
+    <configuration name="TestErrWrapperInServer in errorwapper_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/errhandling/filelistingserver" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learngo/errhandling/filelistingserver" />
+      <pattern value="^TestErrWrapperInServer$" />
+    </configuration>
     <configuration name="TestSubStr in findshorteststring_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/container/nonrepeatingsubstr" />
@@ -350,29 +349,28 @@
       <package value="learngo/container/nonrepeatingsubstr" />
       <pattern value="^TestSubStr$" />
     </configuration>
-    <configuration name="TestTriangle in triangle_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="go test learngo/errhandling/filelistingserver" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/basic" />
+      <working_directory value="$PROJECT_DIR$/errhandling/filelistingserver" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learngo/basic" />
-      <pattern value="^TestTriangle$" />
+      <package value="learngo/errhandling/filelistingserver" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build web.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestTriangle in triangle_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestSubStr in findshorteststring_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.BenchmarkSubStr in findshorteststring_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestErrWrapper in errorwapper_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestSubStr in findshorteststring_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.BenchmarkSubStr in findshorteststring_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestErrWrapper in errorwapper_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestErrWrapperInServer in errorwapper_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.go test learngo/errhandling/filelistingserver" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestErrWrapper in errorwapper_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.BenchmarkSubStr in findshorteststring_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestSubStr in findshorteststring_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestTriangle in triangle_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build web.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.go test learngo/errhandling/filelistingserver" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestErrWrapperInServer in errorwapper_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestErrWrapper in errorwapper_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.BenchmarkSubStr in findshorteststring_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestSubStr in findshorteststring_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -380,14 +378,11 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 15h 56m 48s.xml">
-      <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestErrWrapperInServer_in_errorwapper_test_go - 2018.03.28 at 16h 46m 02s.xml">
+      <configuration name="TestErrWrapperInServer in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 15h 57m 03s.xml">
-      <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 15h 58m 51s.xml">
-      <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestErrWrapperInServer_in_errorwapper_test_go - 2018.03.28 at 16h 57m 08s.xml">
+      <configuration name="TestErrWrapperInServer in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 16h 14m 55s.xml">
       <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
@@ -409,6 +404,9 @@
     </history-entry>
     <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 16h 29m 27s.xml">
       <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_learngo_errhandling_filelistingserver - 2018.03.28 at 16h 57m 18s.xml">
+      <configuration name="go test learngo/errhandling/filelistingserver" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -500,13 +498,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/abc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/branch.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -927,10 +918,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Go/src/net/http/httptest/recorder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="688">
+          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="27" />
           <folding>
             <element signature="e#14#115#0" expanded="true" />
           </folding>
