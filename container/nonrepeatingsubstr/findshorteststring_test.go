@@ -1,6 +1,8 @@
 package nonrepeatingsubstr
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestSubStr(t *testing.T)  {
 	tests := []struct{
@@ -28,6 +30,18 @@ func TestSubStr(t *testing.T)  {
 			t.Errorf("got %d for input %s; "+
 				"expected %d",
 				actual, tt.longStr, tt.ansInt)
+		}
+	}
+}
+
+func BenchmarkSubStr(b *testing.B)  {
+	longStr := "黑化肥挥发发灰会花飞灰化肥挥发发黑会飞花"
+	ansInt := 8
+	for i :=0; i < b.N; i++ {
+		if actual := lengthOfNoRepeatingSubstring(longStr); actual != ansInt{
+			b.Errorf("got %d for input %s; "+
+				"expected %d",
+				actual, longStr, ansInt)
 		}
 	}
 }
