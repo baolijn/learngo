@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="GoTestRunConfiguration" name="TestTriangle in triangle_test.go" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/basic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/arrays.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/findshorteststring.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/maps.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sliceops.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/slices.go" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +35,8 @@
       <file leaf-file-name="triangle_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic/triangle_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="378">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#15#31#0" expanded="true" />
               </folding>
@@ -39,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/functional/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="e#14#83#0" expanded="true" />
               </folding>
@@ -81,7 +90,7 @@
         <entry file="file://C:/Go/src/bufio/scan.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1840">
-              <caret line="210" column="29" lean-forward="true" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
+              <caret line="210" column="29" lean-forward="false" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -91,7 +100,7 @@
         <entry file="file://C:/Go/src/bufio/bufio.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+              <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -101,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
               </folding>
@@ -113,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/loop.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+              <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -244,7 +253,13 @@
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="nonrepeatingsubstr" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,7 +272,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -265,11 +280,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\src\learngo\container\nonrepeatingsubstr" />
+      <recent name="D:\src\learngo\container\slices" />
+      <recent name="D:\src\learngo\container\maps" />
+      <recent name="D:\src\learngo\container\arrays" />
       <recent name="D:\src\learngo\basic" />
-      <recent name="D:\src\learngo\functional" />
-      <recent name="D:\src\learngo\functional\fib" />
-      <recent name="D:\learngo\tree\entry" />
-      <recent name="D:\learngo\tree" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,6 +368,12 @@
     <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 10h 39m 29s.xml">
       <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 10h 41m 25s.xml">
+      <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTriangle_in_triangle_test_go - 2018.03.28 at 10h 42m 28s.xml">
+      <configuration name="TestTriangle in triangle_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -360,10 +381,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41531822" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.416332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1" y="323" width="1596" height="311" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41531822" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -442,12 +463,12 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/findshorteststring.go">
+    <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
-            <element signature="e#14#26#0" expanded="false" />
+            <element signature="e#28#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,7 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/findshorteststring.go">
+    <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
@@ -741,7 +762,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slices.go">
+    <entry file="file://$PROJECT_DIR$/container/slices/slices.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
@@ -749,7 +770,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sliceops.go">
+    <entry file="file://$PROJECT_DIR$/container/slices/sliceops.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
@@ -757,7 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrays.go">
+    <entry file="file://$PROJECT_DIR$/container/arrays/arrays.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
@@ -775,7 +796,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maps.go">
+    <entry file="file://$PROJECT_DIR$/container/maps/maps.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
@@ -802,7 +823,7 @@
     <entry file="file://$PROJECT_DIR$/functional/adder/adder.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
@@ -812,7 +833,7 @@
     <entry file="file://$PROJECT_DIR$/loop.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -820,7 +841,7 @@
     <entry file="file://C:/Go/src/bufio/bufio.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
-          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -828,7 +849,7 @@
     <entry file="file://C:/Go/src/bufio/scan.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1840">
-          <caret line="210" column="29" lean-forward="true" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
+          <caret line="210" column="29" lean-forward="false" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -836,7 +857,7 @@
     <entry file="file://$PROJECT_DIR$/functional/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="e#14#83#0" expanded="true" />
           </folding>
@@ -877,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/triangle_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#15#31#0" expanded="true" />
           </folding>
