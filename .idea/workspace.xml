@@ -6,7 +6,9 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="" />
+    <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/channel/channel.go" afterPath="$PROJECT_DIR$/channel/channel.go" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +59,10 @@
       <file leaf-file-name="channel.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/channel/channel.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="359">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="e#14#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,8 +194,8 @@
         <option value="$PROJECT_DIR$/errhandling/filelistingserver/errorwapper_test.go" />
         <option value="$PROJECT_DIR$/queue/queue_test.go" />
         <option value="$PROJECT_DIR$/queue/queue.go" />
-        <option value="$PROJECT_DIR$/channel/channel.go" />
         <option value="$PROJECT_DIR$/channel/blockingChannel.go" />
+        <option value="$PROJECT_DIR$/channel/channel.go" />
       </list>
     </option>
   </component>
@@ -299,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build blockingChannel.go">
+  <component name="RunManager" selected="Go Build.go build channel.go">
     <configuration name="go build blockingChannel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -351,8 +353,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build blockingChannel.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build channel.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build channel.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build blockingChannel.go" />
         <item index="2" class="java.lang.String" itemvalue="Go Test.ExampleQueue_Pop in queue_test.go" />
         <item index="3" class="java.lang.String" itemvalue="Go Test.go test learngo/errhandling/filelistingserver" />
         <item index="4" class="java.lang.String" itemvalue="Go Test.TestErrWrapperInServer in errorwapper_test.go" />
@@ -403,7 +405,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41531822" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41531822" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41531822" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -913,10 +915,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/channel/channel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="359">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
