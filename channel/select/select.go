@@ -51,9 +51,11 @@ func main() {
 			values = append(values, n)
 		case activeWorker <- activeValue:
 			values = values[1:]
+		case <- time.After(800 * time.Millisecond):
+			fmt.Println("timeout")
 		case <- tm:
 			fmt.Println("bye")
-			return 
+			return
 		}
 	}
 }

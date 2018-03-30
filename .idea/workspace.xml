@@ -35,8 +35,8 @@
       <file leaf-file-name="select.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/channel/select/select.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="256">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding>
                 <element signature="e#14#52#0" expanded="true" />
               </folding>
@@ -934,8 +934,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/channel/select/select.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="256">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
             <element signature="e#14#52#0" expanded="true" />
           </folding>
