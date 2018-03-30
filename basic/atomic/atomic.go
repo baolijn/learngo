@@ -12,9 +12,12 @@ type atomicInt struct {
 }
 
 func (a *atomicInt)increment()  {
-	a.lock.Lock()
-	defer a.lock.Unlock()
-	a.value++
+	fmt.Println("safe increment")
+	func(){
+		a.lock.Lock()
+		defer a.lock.Unlock()
+		a.value++
+	}()
 }
 
 func (a *atomicInt) get() int {
@@ -29,6 +32,7 @@ func main() {
 	go func() {
 		a.increment()
 	}()
+
 	time.Sleep(time.Millisecond)
 	fmt.Println(a.get())
 }
