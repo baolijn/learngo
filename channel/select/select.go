@@ -20,6 +20,7 @@ func generator() chan int {
 }
 
 func doWorker(id int, c chan int) {
+	time.Sleep(time.Minute)
 	for n := range c {
 		fmt.Printf("Worker %d received %d\n", id, n)
 	}
@@ -38,6 +39,7 @@ func main() {
 	var values []int
 	var activeValue int
 	tm := time.After(10 * time.Second)
+	tick := time.Tick(time.Second)
 	for  {
 		var activeWorker chan<- int
 		if len(values) > 0 {
@@ -53,6 +55,8 @@ func main() {
 			values = values[1:]
 		case <- time.After(800 * time.Millisecond):
 			fmt.Println("timeout")
+		case <- tick:
+			fmt.Println("the len of this quene is", len(values))
 		case <- tm:
 			fmt.Println("bye")
 			return
