@@ -35,19 +35,21 @@ func main() {
 	var c1, c2 = generator(), generator()
 	w := createWork(0)
 	n := 0
-	hasValue := false
+	var values []int
+	var activeValue int
 	for  {
 		var activeWorker chan<- int
-		if hasValue {
+		if len(values) > 0 {
 			activeWorker = w
+			activeValue = values[0]
 		}
 		select {
 		case n = <- c1:
-			hasValue = true
+			values = append(values, n)
 		case n = <- c2:
-			hasValue = true
-		case activeWorker <- n:
-			hasValue = false
+			values = append(values, n)
+		case activeWorker <- activeValue:
+			values = values[1:]
 		}
 	}
 }
