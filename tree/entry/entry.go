@@ -58,5 +58,12 @@ func main() {
 	//pRoot = &root
 	//pRoot.SetValue(300)
 	//pRoot.Print()
-
+	c := root.TraverseWithChannel()
+	maxValue := 0
+	for node := range c {
+		if node.Value > maxValue {
+			maxValue = node.Value
+		}
+	}
+	fmt.Println("Max node value is ", maxValue)
 }
