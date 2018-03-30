@@ -37,6 +37,7 @@ func main() {
 	n := 0
 	var values []int
 	var activeValue int
+	tm := time.After(10 * time.Second)
 	for  {
 		var activeWorker chan<- int
 		if len(values) > 0 {
@@ -50,6 +51,9 @@ func main() {
 			values = append(values, n)
 		case activeWorker <- activeValue:
 			values = values[1:]
+		case <- tm:
+			fmt.Println("bye")
+			return 
 		}
 	}
 }
