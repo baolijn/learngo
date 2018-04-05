@@ -2,7 +2,6 @@ package parser
 
 import (
 	"testing"
-
 	"io/ioutil"
 )
 
