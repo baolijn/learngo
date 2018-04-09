@@ -1,38 +1,42 @@
 package engine
 
-import "fmt"
+import (
+	"log"
+)
 
 type Scheduler interface {
 	Submit(request Request)
+	ConfigureMasterWorkerChan(chan Request)
 }
 
 type ConcurrentEngine struct {
-	scheduler   Scheduler
+	Scheduler   Scheduler
 	WorkerCount int
 }
 
-func (e ConcurrentEngine) Run(seeds ...Request) {
-	for _, r := range seeds {
-		e.scheduler.Submit(r)
-	}
-
+func (e *ConcurrentEngine) Run(seeds ...Request) {
 	in := make(chan Request)
 	out := make(chan ParseResult)
+
+	e.Scheduler.ConfigureMasterWorkerChan(in)
 
 	for i := 0; i < e.WorkerCount; i++ {
 		createWorker(in, out)
 	}
 
+	for _, r := range seeds {
+		e.Scheduler.Submit(r)
+	}
+
 	for {
 		result := <-out
 		for _, item := range result.Items {
-			fmt.Printf("Got item: %v", item)
+			log.Printf("Got item: %v", item)
 		}
 
 		for _, request := range result.Requests {
-			e.scheduler.Submit(request)
+			e.Scheduler.Submit(request)
 		}
-
 	}
 }
 

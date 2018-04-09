@@ -22,6 +22,7 @@ func (e SimpleEngine) Run(seeds ... Request) {
 		if err != nil {
 			continue
 		}
+
 		requests = append(requests, parseResult.Requests...)
 
 		for _, item := range parseResult.Items {
