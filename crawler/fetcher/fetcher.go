@@ -9,11 +9,10 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/net/html/charset"
 	"golang.org/x/text/encoding/unicode"
-	"log"
 	"time"
 )
 
-var rateLimiter = time.Tick(100 * time.Millisecond)
+var rateLimiter = time.Tick(10 * time.Millisecond)
 
 func Fetch(url string) ([]byte, error) {
 	<- rateLimiter
@@ -36,7 +35,7 @@ func Fetch(url string) ([]byte, error) {
 func determineEncoding(r *bufio.Reader) encoding.Encoding {
 	bytes, err := r.Peek(1024)
 	if err != nil {
-		log.Printf("fetcher error: %v", err)
+		//log.Printf("fetcher error: %v", err)
 		return unicode.UTF8
 	}
 
