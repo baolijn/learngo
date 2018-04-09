@@ -13,7 +13,7 @@ func main() {
 	//})
 	e := engine.ConcurrentEngine{
 		Scheduler: &scheduler.SimpleScheduler{},
-		WorkerCount: 10}
+		WorkerCount: 100}
 	e.Run(engine.Request{
 		Url:	"http://www.zhenai.com/zhenghun",
 		ParserFunc: parser.ParseCityList,
