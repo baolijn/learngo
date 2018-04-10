@@ -1,9 +1,10 @@
 package engine
 
-import (
-	"learngo/crawler/model"
-	"log"
-)
+type ConcurrentEngine struct {
+	Scheduler   Scheduler
+	WorkerCount int
+	ItemChan chan interface{}
+}
 
 type Scheduler interface {
 	ReadyNotifier
@@ -14,11 +15,6 @@ type Scheduler interface {
 
 type ReadyNotifier interface {
 	WorkerReady(chan Request)
-}
-
-type ConcurrentEngine struct {
-	Scheduler   Scheduler
-	WorkerCount int
 }
 
 func (e *ConcurrentEngine) Run(seeds ...Request) {
@@ -38,14 +34,10 @@ func (e *ConcurrentEngine) Run(seeds ...Request) {
 		e.Scheduler.Submit(r)
 	}
 
-	profileCount := 0
 	for {
 		result := <-out
 		for _, item := range result.Items {
-			if _, ok := item.(model.Profile); ok {
-				log.Printf("Got profile #%d: %v", profileCount, item)
-				profileCount ++
-			}
+			go func() {e.ItemChan <- item}()
 		}
 
 		for _, request := range result.Requests {
