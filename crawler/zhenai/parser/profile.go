@@ -5,6 +5,7 @@ import (
 	"strconv"
 	"learngo/crawler/engine"
 	"learngo/crawler/model"
+	"go/types"
 )
 
 var ageRe = regexp.MustCompile(
@@ -78,7 +79,14 @@ func parseProfile(contents []byte, name string) engine.ParseResult {
 		contents, xinzuoRe)
 
 	result := engine.ParseResult{
-		Items: []interface{}{profile},
+		Items: []engine.Item{
+			{
+				Url: "",
+				Type: "zhenai",
+				Id: "",
+				Payload:profile,
+			},
+		},
 	}
 
 	matches := guessRe.FindAllSubmatch(
