@@ -1,7 +1,6 @@
 package engine
 
 import (
-	"learngo/crawler/fetcher"
 	"log"
 )
 
