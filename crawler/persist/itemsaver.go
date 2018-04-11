@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-func ItemSaver() (chan engine.Item, error) {
+func ItemSaver(index string) (chan engine.Item, error) {
 	client, err := elastic.NewClient(
 		elastic.SetURL("http://139.219.99.228:9200/"),
 		elastic.SetSniff(false))
@@ -23,7 +23,7 @@ func ItemSaver() (chan engine.Item, error) {
 			item := <-out
 			log.Printf("Item Saver: got item #%d: %v", itemCount, item)
 			itemCount++
-			err := save(client, item)
+			err := save(client, index, item)
 			if err != nil {
 				log.Printf("Item Saver: error saving item %v: %v", item, err)
 			}
@@ -33,7 +33,7 @@ func ItemSaver() (chan engine.Item, error) {
 	return out, nil
 }
 
-func save(client *elastic.Client, item engine.Item) error {
+func save(client *elastic.Client, index string, item engine.Item) error {
 
 
 	if item.Type == "" {
@@ -41,7 +41,7 @@ func save(client *elastic.Client, item engine.Item) error {
 	}
 
 	indexService := client.Index().
-		Index("dating_profile").
+		Index(index).
 		Type(item.Type).
 		BodyJson(item)
 
