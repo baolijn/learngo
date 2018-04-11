@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/crawler/engine/concurrent.go" afterPath="$PROJECT_DIR$/crawler/engine/concurrent.go" />
-      <change beforePath="$PROJECT_DIR$/crawler/main.go" afterPath="$PROJECT_DIR$/crawler/main.go" />
-      <change beforePath="$PROJECT_DIR$/crawler/persist/itemsaver.go" afterPath="$PROJECT_DIR$/crawler/persist/itemsaver.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/engine/types.go" afterPath="$PROJECT_DIR$/crawler/engine/types.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parser/city.go" afterPath="$PROJECT_DIR$/crawler/zhenai/parser/city.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" afterPath="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itemsaver.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="itemsaver.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler/persist/itemsaver.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="900">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#17#144#0" expanded="true" />
               </folding>
@@ -68,8 +67,8 @@
       <file leaf-file-name="profile.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1066">
-              <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="31" />
+            <state relative-caret-position="760">
+              <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
               <folding>
                 <element signature="e#16#98#0" expanded="true" />
               </folding>
@@ -90,8 +89,8 @@
       <file leaf-file-name="types.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler/engine/types.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="396">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -107,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="city.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/city.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="360">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,13 +204,13 @@
         <option value="$PROJECT_DIR$/crawler/fetcher/fetcher.go" />
         <option value="$PROJECT_DIR$/crawler/zhenai/parser/citylist.go" />
         <option value="$PROJECT_DIR$/crawler/persist/itemsaver_test.go" />
-        <option value="$PROJECT_DIR$/crawler/engine/types.go" />
         <option value="$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go" />
-        <option value="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" />
-        <option value="$PROJECT_DIR$/crawler/zhenai/parser/city.go" />
         <option value="$PROJECT_DIR$/crawler/engine/concurrent.go" />
         <option value="$PROJECT_DIR$/crawler/persist/itemsaver.go" />
         <option value="$PROJECT_DIR$/crawler/main.go" />
+        <option value="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" />
+        <option value="$PROJECT_DIR$/crawler/engine/types.go" />
+        <option value="$PROJECT_DIR$/crawler/zhenai/parser/city.go" />
       </list>
     </option>
   </component>
@@ -276,6 +275,12 @@
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
               <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
@@ -564,7 +569,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41316074" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41316074" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="367" width="1920" height="305" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -869,14 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/engine/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -903,24 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="31" />
-          <folding>
-            <element signature="e#16#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/city.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler/engine/concurrent.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -939,11 +918,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler/persist/itemsaver.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="900">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#17#144#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/engine/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/city.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
