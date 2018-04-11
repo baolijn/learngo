@@ -95,7 +95,7 @@ func parseProfile(contents []byte, url string, name string) engine.ParseResult {
 		result.Requests = append(result.Requests,
 			engine.Request{
 				Url: url,
-				ParserFunc: ProfileParser(string(m[2]), url),
+				ParserFunc: ProfileParser(string(m[2])),
 			})
 	}
 	return result
@@ -112,9 +112,8 @@ func extractString(
 	}
 }
 
-func ProfileParser(
-	name string, url string) engine.ParserFunc {
-	return func(c []byte) engine.ParseResult {
+func ProfileParser(name string) engine.ParserFunc {
+	return func(c []byte, url string) engine.ParseResult {
 		return parseProfile(c, url, name)
 	}
 }
