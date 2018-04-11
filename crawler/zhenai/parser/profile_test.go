@@ -4,6 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 	"learngo/crawler/model"
+	"learngo/crawler/engine"
 )
 
 func TestParseProfile(t *testing.T) {
@@ -15,15 +16,20 @@ func TestParseProfile(t *testing.T) {
 	}
 
 	result := parseProfile(contents,
+		"http://album.zhenai.com/u/108906739",
 		"安静的雪")
 
 	if len(result.Items) != 1 {
 		t.Errorf("Items should contain 1 "+
 			"element; but was %v", result.Items)
 	}
-	profile := result.Items[0].(model.Profile)
+	actual := result.Items[0]
 
-	expected := model.Profile{
+	expected := engine.Item{
+		Url:  "http://album.zhenai.com/u/108906739",
+		Type: "zhenai",
+		Id:   "108906739",
+		Payload: model.Profile{
 			Age:        34,
 			Height:     162,
 			Weight:     57,
@@ -37,10 +43,11 @@ func TestParseProfile(t *testing.T) {
 			HuKou:      "山东菏泽",
 			Education:  "大学本科",
 			Car:        "未购车",
-		}
+		},
+	}
 
-	if profile != expected {
+	if actual != expected {
 		t.Errorf("expected %v; but was %v",
-			expected, profile)
+			expected, actual)
 	}
 }

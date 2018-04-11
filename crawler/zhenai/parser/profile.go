@@ -5,7 +5,6 @@ import (
 	"strconv"
 	"learngo/crawler/engine"
 	"learngo/crawler/model"
-	"go/types"
 )
 
 var ageRe = regexp.MustCompile(
@@ -37,7 +36,7 @@ var guessRe = regexp.MustCompile(
 var idUrlRe = regexp.MustCompile(
 	`http://album.zhenai.com/u/([\d]+)`)
 
-func parseProfile(contents []byte, name string) engine.ParseResult {
+func parseProfile(contents []byte, url string, name string) engine.ParseResult {
 	profile := model.Profile{}
 	profile.Name = name
 
@@ -81,9 +80,9 @@ func parseProfile(contents []byte, name string) engine.ParseResult {
 	result := engine.ParseResult{
 		Items: []engine.Item{
 			{
-				Url: "",
+				Url: url,
 				Type: "zhenai",
-				Id: "",
+				Id: extractString([]byte(url), idUrlRe),
 				Payload:profile,
 			},
 		},
@@ -92,11 +91,12 @@ func parseProfile(contents []byte, name string) engine.ParseResult {
 	matches := guessRe.FindAllSubmatch(
 		contents, -1)
 	for _, m := range matches {
+		url := string(m[1])
 		result.Requests = append(result.Requests,
 			engine.Request{
-				Url: string(m[1]),
+				Url: url,
 				ParserFunc: func(c []byte) engine.ParseResult {
-					return parseProfile(c, string(m[2]))
+					return parseProfile(c, url, string(m[2]))
 				},
 			})
 	}
