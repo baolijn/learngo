@@ -15,12 +15,18 @@ func main() {
 	//e := engine.ConcurrentEngine{
 	//	Scheduler: &scheduler.SimpleScheduler{},
 	//	WorkerCount: 100}
+	itemChan, err := persist.ItemSaver()
+	if err != nil {
+		panic(err)
+	}
+
 	e := engine.ConcurrentEngine{
-			Scheduler: &scheduler.QueuedScheduler{},
-			WorkerCount: 1000,
-			ItemChan:persist.ItemSaver()}
+
+		Scheduler:   &scheduler.QueuedScheduler{},
+		WorkerCount: 1000,
+		ItemChan:    itemChan}
 	e.Run(engine.Request{
-		Url:	"http://www.zhenai.com/zhenghun",
+		Url:        "http://www.zhenai.com/zhenghun",
 		ParserFunc: parser.ParseCityList,
 	})
 	//e.Run(engine.Request{
@@ -28,4 +34,3 @@ func main() {
 	//	ParserFunc: parser.ParseCity,
 	//})
 }
-
