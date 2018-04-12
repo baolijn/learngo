@@ -1,15 +1,14 @@
-package main
+package rpcsupport
 
 import (
 	"net/rpc"
-	"learngo/rpc"
 	"net"
 	"net/rpc/jsonrpc"
 	"log"
 )
 
 func ServeRpc(host string, service interface{}) error {
-	rpc.Register(rpcdemo.DemoService{})
+	rpc.Register(service)
 
 	listener, err := net.Listen("tcp", host)
 	if err != nil {

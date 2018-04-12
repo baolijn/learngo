@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3890dbd7-eed9-4168-9be0-aab049d21190" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/crawler_distributed/rpcsupport/rpc.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/crawler_distributed/persist/rpc.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/crawler_distributed/persist/server/client_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/crawler_distributed/persist/server/main.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/persist/itemsaver.go" afterPath="$PROJECT_DIR$/crawler/persist/itemsaver.go" />
+      <change beforePath="$PROJECT_DIR$/crawler_distributed/rpcsupport/rpc.go" afterPath="$PROJECT_DIR$/crawler_distributed/rpcsupport/rpc.go" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,45 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="concurrent.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/engine/concurrent.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rpc.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc/rpc.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="e#17#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc/server/server.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#14#83#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +37,8 @@
       <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc/client/client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding>
                 <element signature="e#14#72#0" expanded="true" />
               </folding>
@@ -74,43 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rpc.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crawler_distributed/rpcsupport/rpc.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/net/rpc/client.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="315" column="22" lean-forward="false" selection-start-line="315" selection-start-column="22" selection-end-line="315" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="worker.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/engine/worker.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="itemsaver.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler/persist/itemsaver.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="54" />
+            <state relative-caret-position="161">
+              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="e#17#144#0" expanded="true" />
               </folding>
@@ -118,14 +58,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchresult.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/frontend/controller/searchresult.go">
+      <file leaf-file-name="rpc.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler_distributed/persist/rpc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="252">
+              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding>
-                <element signature="e#20#220#0" expanded="true" />
+                <element signature="e#17#111#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawler_distributed/persist/server/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <folding>
+                <element signature="e#14#143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler_distributed/persist/server/client_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="809">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="citylist_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/citylist_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.go" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/log/log.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="304" column="5" lean-forward="false" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,9 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/errhandling/defer/defer.go" />
-        <option value="$PROJECT_DIR$/errhandling/recover/recover.go" />
-        <option value="$PROJECT_DIR$/errhandling/filelistingserver/filelisting/handler.go" />
         <option value="$PROJECT_DIR$/errhandling/filelistingserver/web.go" />
         <option value="$PROJECT_DIR$/rangereturn.go" />
         <option value="$PROJECT_DIR$/functional/main.go" />
@@ -204,7 +195,6 @@
         <option value="$PROJECT_DIR$/crawler/zhenai/parser/citylist.go" />
         <option value="$PROJECT_DIR$/crawler/zhenai/parser/citylist_test.go" />
         <option value="$PROJECT_DIR$/crawler/engine/worker.go" />
-        <option value="$PROJECT_DIR$/crawler/persist/itemsaver.go" />
         <option value="$PROJECT_DIR$/crawler/engine/simple.go" />
         <option value="$PROJECT_DIR$/crawler/frontend/model/page.go" />
         <option value="$PROJECT_DIR$/crawler/frontend/view/searchresult.go" />
@@ -215,6 +205,10 @@
         <option value="$PROJECT_DIR$/rpc/server/server.go" />
         <option value="$PROJECT_DIR$/rpc/client/client.go" />
         <option value="$PROJECT_DIR$/crawler_distributed/rpcsupport/rpc.go" />
+        <option value="$PROJECT_DIR$/crawler/persist/itemsaver.go" />
+        <option value="$PROJECT_DIR$/crawler_distributed/persist/server/client_test.go" />
+        <option value="$PROJECT_DIR$/crawler_distributed/persist/rpc.go" />
+        <option value="$PROJECT_DIR$/crawler_distributed/persist/server/main.go" />
       </list>
     </option>
   </component>
@@ -278,7 +272,37 @@
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="persist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
               <item name="crawler_distributed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="persist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="persist" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learngo" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler_distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcsupport" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
@@ -444,7 +468,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build client.go">
+  <component name="RunManager" selected="Go Test.TestItemSaver in client_test.go">
     <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -477,31 +501,29 @@
       <filePath value="$PROJECT_DIR$/crawler/frontend/starter.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="TestParseCityList in learngo/crawler/zhenai/parser" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestItemSaver in client_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/crawler/zhenai/parser" />
+      <working_directory value="$PROJECT_DIR$/crawler_distributed/persist/server" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learngo/crawler/zhenai/parser" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestParseCityList$" />
+      <package value="learngo/crawler_distributed/persist/server" />
+      <pattern value="^TestItemSaver$" />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestParseCityList in learngo/crawler/zhenai/parser" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build starter.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build client.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build server.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build starter.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build client.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build server.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestItemSaver in client_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build client.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build server.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build starter.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestParseCityList in learngo/crawler/zhenai/parser" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestItemSaver in client_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build client.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build server.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build starter.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -509,14 +531,14 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 16h 25m 16s.xml">
-      <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestItemSaver_in_client_test_go - 2018.04.12 at 11h 22m 34s.xml">
+      <configuration name="TestItemSaver in client_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestErrWrapper_in_errorwapper_test_go - 2018.03.28 at 16h 29m 27s.xml">
-      <configuration name="TestErrWrapper in errorwapper_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestItemSaver_in_client_test_go - 2018.04.12 at 11h 24m 44s.xml">
+      <configuration name="TestItemSaver in client_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParseCityList_in_learngo_crawler_zhenai_parser - 2018.04.05 at 10h 41m 18s.xml">
-      <configuration name="TestParseCityList in learngo/crawler/zhenai/parser" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestItemSaver_in_client_test_go - 2018.04.12 at 11h 26m 50s.xml">
+      <configuration name="TestItemSaver in client_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestParseCityList_in_learngo_crawler_zhenai_parser - 2018.04.05 at 10h 44m 20s.xml">
       <configuration name="TestParseCityList in learngo/crawler/zhenai/parser" configurationId="GoTestRunConfiguration" />
@@ -550,7 +572,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41316074" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41316074" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" x="18" y="691" width="1596" height="311" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="367" width="1920" height="305" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -630,34 +652,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/channel/channel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/channel/blockingChannel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/container/arrays/arrays.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/container/nonrepeatingsubstr/findshorteststring.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/container/slices/sliceops.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -781,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/regexp/regexp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -820,14 +806,6 @@
           <folding>
             <element signature="e#16#62#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/citylist_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,7 +855,7 @@
         <state relative-caret-position="324">
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="e#14#81#0" expanded="true" />
+            <element signature="e#14#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -895,7 +873,7 @@
         <state relative-caret-position="306">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#14#75#0" expanded="true" />
+            <element signature="e#14#75#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -908,22 +886,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/persist/itemsaver.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#17#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler/frontend/controller/searchresult.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
-            <element signature="e#20#220#0" expanded="true" />
+            <element signature="e#20#220#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -965,7 +933,7 @@
         <state relative-caret-position="468">
           <caret line="26" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="e#14#83#0" expanded="true" />
+            <element signature="e#14#83#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -973,29 +941,93 @@
     <entry file="file://$PROJECT_DIR$/rpc/rpc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="e#17#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/client/client.go">
+    <entry file="file://C:/Go/src/log/log.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="170">
+          <caret line="304" column="5" lean-forward="false" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/citylist_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler_distributed/persist/server/client_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#14#72#0" expanded="true" />
+            <element signature="e#14#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/persist/itemsaver.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#17#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler_distributed/persist/rpc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#17#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler_distributed/rpcsupport/rpc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="161">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
-            <element signature="e#14#83#0" expanded="true" />
+            <element signature="e#20#74#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/client/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#14#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler_distributed/persist/server/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#14#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
