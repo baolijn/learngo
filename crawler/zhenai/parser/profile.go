@@ -5,6 +5,7 @@ import (
 	"strconv"
 	"learngo/crawler/engine"
 	"learngo/crawler/model"
+	"fmt"
 )
 
 var ageRe = regexp.MustCompile(
@@ -35,6 +36,9 @@ var guessRe = regexp.MustCompile(
 	`<a class="exp-user-name"[^>]*href="(http://album.zhenai.com/u/[\d]+)">([^<]+)</a>`)
 var idUrlRe = regexp.MustCompile(
 	`http://album.zhenai.com/u/([\d]+)`)
+
+
+var profileRea  = regexp.MustCompile(`<a href="(http://album.zhenai.com/u/[0-9]+)"[^>]*>([^<]+)</a>`)
 
 func parseProfile(contents []byte, url string, name string) engine.ParseResult {
 	profile := model.Profile{}
@@ -88,16 +92,25 @@ func parseProfile(contents []byte, url string, name string) engine.ParseResult {
 		},
 	}
 
-	matches := guessRe.FindAllSubmatch(
-		contents, -1)
-	for _, m := range matches {
-		url := string(m[1])
+	//matches := guessRe.FindAllSubmatch(
+	//	contents, -1)
+	//for _, m := range matches {
+		ids, err := strconv.Atoi(extractString([]byte(url), idUrlRe))
+		if err != nil {
+
+		}
+		ids = ids + 1
+
+		url = fmt.Sprintf("http://album.zhenai.com/u/:%d",ids)
+		//log.Printf("url %v", url)
+		//log.Printf("Ids %v", ids)
+		//log.Printf("Idss %v", idss)
 		result.Requests = append(result.Requests,
 			engine.Request{
 				Url: url,
-				ParserFunc: ProfileParser(string(m[2])),
+				ParserFunc: ProfileParser(name),
 			})
-	}
+	//}
 	return result
 }
 
