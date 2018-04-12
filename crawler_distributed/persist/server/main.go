@@ -5,10 +5,12 @@ import (
 	"learngo/crawler_distributed/rpcsupport"
 	"learngo/crawler_distributed/persist"
 	"log"
+	"fmt"
+	"learngo/crawler_distributed/config"
 )
 
 func main() {
-	log.Fatal(serveRpc(":1234", "dating_profile"))
+	log.Fatal(serveRpc(fmt.Sprintf(":%d", config.ItemSaverPort), config.ElasticIndex))
 }
 
 func serveRpc(host string, Index string) error {
