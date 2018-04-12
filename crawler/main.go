@@ -21,7 +21,6 @@ func main() {
 	}
 
 	e := engine.ConcurrentEngine{
-
 		Scheduler:   &scheduler.QueuedScheduler{},
 		WorkerCount: 1000,
 		ItemChan:    itemChan}
