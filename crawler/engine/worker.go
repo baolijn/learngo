@@ -8,7 +8,7 @@ func worker(r Request) (ParseResult, error) {
 	if err != nil {
 		//log.Printf("Fetcher: error fetching url %s %v",
 		//	r.Url, err)
-		return ParseResult{}, err
+		//return ParserFunc{body, r.Url}, err
 	}
 	return r.ParserFunc(body, r.Url), nil
 }

@@ -9,12 +9,12 @@ import (
 )
 
 func ItemSaver(index string) (chan engine.Item, error) {
-	client, err := elastic.NewClient(
-		elastic.SetURL("http://139.219.99.228:9200/"),
-		elastic.SetSniff(false))
-	if err != nil {
-		return  nil, err
-	}
+	//client, err := elastic.NewClient(
+	//	elastic.SetURL("http://139.219.99.228:9200/"),
+	//	elastic.SetSniff(false))
+	//if err != nil {
+	//	return  nil, err
+	//}
 
 	out := make(chan engine.Item)
 	go func() {
@@ -23,10 +23,10 @@ func ItemSaver(index string) (chan engine.Item, error) {
 			item := <-out
 			log.Printf("Item Saver: got item #%d: %v", itemCount, item)
 			itemCount++
-			err := Save(client, index, item)
-			if err != nil {
-				log.Printf("Item Saver: error saving item %v: %v", item, err)
-			}
+			//err := Save(client, index, item)
+			//if err != nil {
+			//	log.Printf("Item Saver: error saving item %v: %v", item, err)
+			//}
 		}
 	}()
 

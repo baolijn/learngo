@@ -6,6 +6,7 @@ import (
 	"learngo/crawler/engine"
 	"learngo/crawler/model"
 	"fmt"
+	"log"
 )
 
 var ageRe = regexp.MustCompile(
@@ -95,23 +96,27 @@ func parseProfile(contents []byte, url string, name string) engine.ParseResult {
 	//matches := guessRe.FindAllSubmatch(
 	//	contents, -1)
 	//for _, m := range matches {
+	for {
 		ids, err := strconv.Atoi(extractString([]byte(url), idUrlRe))
 		if err != nil {
-
+			log.Printf("url %v", err)
+			continue
 		}
 		ids = ids + 1
 
-		url = fmt.Sprintf("http://album.zhenai.com/u/:%d",ids)
+		url = fmt.Sprintf("http://album.zhenai.com/u/%d", ids)
 		//log.Printf("url %v", url)
 		//log.Printf("Ids %v", ids)
-		//log.Printf("Idss %v", idss)
+		//log.Printf("Idss %v", extractString([]byte(url), idUrlRe))
 		result.Requests = append(result.Requests,
 			engine.Request{
-				Url: url,
+				Url:        url,
 				ParserFunc: ProfileParser(name),
 			})
+
 	//}
 	return result
+	}
 }
 
 func extractString(
